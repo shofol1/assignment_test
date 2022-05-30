@@ -128,3 +128,18 @@
 .footer-link > a {
   text-decoration: none;
 }
+.owl-prev {
+  position: absolute;
+  top: -34px;
+  left: 47%;
+}
+.owl-next {
+  position: absolute;
+  top: -34px;
+  right: 47%;
+}
+@media screen and (min-width: 480px) {
+  .footer {
+    text-align: center;
+  }
+}

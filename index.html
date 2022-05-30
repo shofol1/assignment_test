@@ -14,6 +14,20 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     />
     <!-- owl carousel cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+      integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <div class="container">
@@ -250,7 +264,33 @@
     </div>
     <!-- students section end  -->
     <!-- slider start  -->
-
+    <div class="owl-carousel owl-theme mt-5 mb-5">
+      <div class="item">
+        <div class="row">
+          <div class="col-md-6" style="width: 250px">
+            <img src="images/slider1.jpg" />
+          </div>
+          <div class="col-md-6 col-12 text-dark">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam
+              obcaecati est blanditiis
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="row">
+          <div class="col-md-6 col-12" style="width: 250px">
+            <img src="images/slider2.jpg" />
+          </div>
+          <div class="col-md-6 text-dark">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, sint
+            rerum nostrum consequatur
+          </div>
+        </div>
+      </div>
+      <div class="item"><h4>3</h4></div>
+    </div>
     <!-- slider End  -->
     <!-- Footer start  -->
     <div class="footer container mt-5">
@@ -294,5 +334,38 @@
 
     <script src="/js/bootstrap.min.js
     "></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script type="text/javascript">
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        nav: true,
+        items: 2,
+        responsive: {
+          // breakpoint from 0 up
+          0: {
+            items: 1,
+          },
+          // breakpoint from 480 up
+          480: {
+            items: 2,
+          },
+          // breakpoint from 768 up
+          768: {
+            items: 2,
+          },
+        },
+      });
+    </script>
   </body>
 </html>
