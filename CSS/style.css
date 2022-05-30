@@ -9,6 +9,9 @@
   border: none;
   border-radius: 30px;
 }
+.primary {
+  background-color: #644f9c;
+}
 .menu-btn {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   padding: 10px 40px;
@@ -53,7 +56,75 @@
 .available-icon .col-md-4 > i {
   color: #644f9c;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  padding: 20px 30px;
+  padding: 30px 30px;
   border-radius: 50%;
   font-size: 40px;
+}
+
+/* tab css  */
+.dimension {
+  width: 500px;
+  height: 300px;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: #ff6f00;
+  color: #fff !important;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.nav-tabs .nav-link {
+  background-color: #f2f2f2;
+  color: #000;
+
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  margin-right: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  border-radius: 30px;
+}
+
+.nav-tabs .nav-link:hover {
+}
+
+.nav-tabs {
+  border: none;
+  display: flex;
+  justify-content: center;
+}
+
+.tab-content {
+  padding: 20px;
+}
+.img-thumbnail {
+  object-fit: cover;
+}
+.students-section .first {
+  border: 1px dotted #fff;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  color: #fff;
+}
+.students-section .second {
+  border: 1px solid #000;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  color: #000;
+  background-color: #fff;
+}
+.students-section .third {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background-color: #ff6f00;
+  color: #fff;
+}
+.students-section .row {
+  justify-content: space-evenly;
+}
+.footer-link > a {
+  text-decoration: none;
 }
